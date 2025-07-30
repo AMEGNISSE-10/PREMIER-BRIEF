@@ -1,0 +1,62 @@
+<!--index.html-->
+<DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Express</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--AMEGNISSE Yao Hervé Mawunyo. REFERENT DIGITAL-->
+          <!-- c'est l'en-tête de mon site. j'ai mis un titre principale (h1) et une description(p) le tout dans la balise <header>-->
+  <header>
+    <h1>Agence Express</h1>
+    <p>Envoyez vos colis partout dans le monde en toute sécurité</p>
+  </header>
+      
+         <!-- en suite j'ai mis une section spéciale(section class=hero) dans laquelle j'ai mis un sous titre et un paragraphe-->
+
+  <section class="hero">
+    <h2>Expédiez facilement vos colis</h2>
+    <p>Service rapide, fiable et abordable pour tous vos envois internationaux</p>
+  </section>
+
+        <!-- en suite une autre pour le formulaire(sectoin class=form-container).-->
+
+  <section class="form-container">
+    <h3>Formulaire d'envoi</h3>
+    <form>
+      <label for="nom">Nom complet</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Adressse Email</label>
+      <input type="email" id="email" name="email"required>
+
+      <label for="tel">Numéro de téléphone</label>
+      <input type="tel" id="tel" name="tel" required>
+
+      <label for="pays"> pays de destination</label>
+      <select id="pays" name="pays" required>
+        <option value="">-- Sélectionnez un pays --</option>
+        <option value="France">France</option>
+        <option value="USA">États-unis</option>
+        <option value="Togo">Togo</option>
+        <option value="Canada">Canada</option>
+        <option value="Sénégale">Sénégal</option>
+      </select>
+
+      <label for="colis">Description du colis</label>
+      <textarea id="colis" name="colis" rows="4" placeholder="Taille, poids, contenu..." required></textarea>
+
+      <button type="submit">Envoyer la Demande</button> 
+    </form>
+  </section>
+
+        <!-- en fin le  de bas de page ce mon site avce un petit texte-->
+
+  <footer>
+    <p>&copy; 2025 Agence Express - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
